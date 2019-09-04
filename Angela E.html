@@ -1,134 +1,174 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>Angela Egerega's CV</title>
-        <style>
-            body         {font-family: "Open Sans", sans-serif;
-                          color: #DBDEF0;
-                          font-weight: 10px;
-                          background-color: #17141d;
-                          margin-right: 0;
-                          margin-bottom: -10px;
-                          margin-top: 0;
-                          font-size: 14px;}
+            <style>
+                body         {font-family: "Open Sans", sans-serif;
+                              color: #DBDEF0;
+                              font-weight: 10px;
+                              background-color: #17141d;
+                              margin-right: 0;
+                              margin-top: 0;
+                              font-size: 14px;
+                              background-image: url(road-network-2.jpeg);}
 
-            .profile-image{width: 150px;
-                           height: 150px;}
+                .profile-image{width: 150px;
+                               height: 150px;}
 
-            .detail-box {margin: 10px 15px;
-                         height: 95%;
-                         background-color: white;
-                         border-radius: 8px;
-                         padding: 2%;
-                         text-align: center;
-                         color:#17141d;}
+                .detail-box {margin: 10px 15px;
+                             height: 95%;
+                             background-color: white;
+                             border-radius: 8px;
+                             padding: 2%;
+                             text-align: center;
+                             color:#17141d;}
 
-            .left-article{color:#DBDEF0;
-                         background-color:#17141d; 
-                         height: 100%;
-                         padding-right:30px;
-                         padding-left: 100px;
-                         float:left;}
+                .left-article{color:#DBDEF0;
+                             background-color:transparent;/*#17141d; */
+                             background-size: cover;
+                             background-repeat: no-repeat;
+                             height: 100%;
+                             padding-right:30px;
+                             padding-left: 100px;
+                             float:left;}
 
-            .right-article{color:#17141d;
-                          background-color:#F2DEFF;
-                         padding-left: 50px;
-                         padding-right: 100px;
-                         float:right;
-                         text-align:left;}
+                .right-article{color:#17141d;
+                              background-color:#F2DEFF;
+                             padding-left: 50px;
+                             padding-right: 100px;
+                             padding-bottom: 200px;
+                             float:right;
+                             text-align:left;}
 
-            .certificates {font-size: 12px;
-                           font-style: italic;}
+                .certificates {font-size: 12px;
+                               font-style: italic;}
 
-            li             {list-style:square;}
+                li             {list-style:square;}
 
-            .right-subheader {color: #041892;}
-            
-            .left-subheader {color: white;}
+                .right-subheader {color: #041892;}
 
-            .left-sub-header{color: white;}
-            
-            .subheader-text {font-style: italic; 
-                             font-size:13px;}
-            
-            /* This last style below separates the two sections of the webpage. */
-             .empty-section{clear: both;}
+                .left-subheader {color: white;}
 
+                .left-sub-header{color: white;}
+
+                .subheader-text {font-style: italic; 
+                                 font-size:13px;}
+
+                /* This style below separates the two sections of the webpage. */
+
+                 .empty-section{clear: both;}
+
+                .input-field {background-color:transparent;
+                              border-radius: 15px;
+                              padding: 8px;
+                              border-collapse:collapse;
+                              color: white;
+                              display: flex;
+                              width: 60%;
+                              border-width: 0.5px;
+                              }
+
+                .form-section {background-color: transparent;}
+
+                .large-input-field {height: 100px;
+                                    position:relative;
+                                    background-color:transparent;
+                                    border-radius: 15px;
+                                    padding:8px;
+                                    border-collapse:collapse;
+                                    color: white;
+                                    display: flex;
+                                    width: 60%;
+                                    border-width: 0.5px;
+                                    font-family: "Open Sans", sans-serif;}
+
+
+
+                .button { border-collapse: collapse;
+                          border: none;
+                          padding: 8px;
+                          border-radius: 8px;
+                          font-family: "Open Sans", sans-serif;
+                          background-color: #041892;}
         </style>
     </head>
     <body>
+        <!-- Left side of the page starts here -->
         <article class="left-article">
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
             <div>
                 <img class ="profile-image" src="https://res.cloudinary.com/angelae/image/upload/v1566504621/Start-ng-Pre-internship/Angela_E._yx0mgw.jpg" alt="Dev Angela Angela Egerega start.ng HNG im_angiee"/>
             </div>
             <section>
-            <h4 class="left-subheader">PERSONAL INFORMATION</h4>
-            <table>
-                <tr>
-                    <td>Gender:</td>
-                    <td>Female</td>
-                </tr>
-                <tr>
-                    <td>State of Origin: </td>
-                    <td>Delta</td>
-                </tr>
-                <tr>
-                    <td>Date of birth:</td>
-                    <td>12th April 1993</td>
-                </tr>
-                <tr>
-                    <td>Marital status: </td>
-                    <td>Single</td>
-                </tr>
-            </table>   
-        </section>
+                <h4 class="left-subheader">PERSONAL INFORMATION</h4>
+                    <table>
+                        <tr>
+                            <td>Gender:</td>
+                            <td>Female</td>
+                        </tr>
+                        <tr>
+                            <td>State of Origin: </td>
+                            <td>Delta</td>
+                        </tr>
+                        <tr>
+                            <td>Date of birth:</td>
+                            <td>12th April 1993</td>
+                        </tr>
+                        <tr>
+                            <td>Marital status: </td>
+                            <td>Single</td>
+                        </tr>
+                </table>   
+            </section>
             <br>
             <hr>
-        <section>
-            <h4 class="left-subheader">PERSONALITY TRAITS</h4>
-            <ul>
-                <li>Self-motivated</li>
-                <li>Flexible and quick to pick up new skills</li>
-                <li>Eager to learn</li>
-                <li>Energetic attitude to work</li>
-                <li>Good organizational skills with a<br> proactive and positive attitude.</li>
-            </ul>
+            <section>
+                <h4 class="left-subheader">PERSONALITY TRAITS</h4>
+                    <ul>
+                        <li>Self-motivated</li>
+                        <li>Flexible and quick to pick up new skills</li>
+                        <li>Eager to learn</li>
+                        <li>Energetic attitude to work</li>
+                        <li>Good organizational skills with a<br> proactive and positive attitude.</li>
+                    </ul>
         </section>
         <section>
             <h4 class="left-subheader">TECHNICAL KNOWLEDGE/SKILLS</h4>
-            <ul>
-                <li>Well versed in Microsoft office packages<br> (MS word, MS Excel, MS PowerPoint)</li>
-                <li>HTML, CSS, Bootstrap.</li>
-                <li>Designing IP addressing schemes using subnets,<br> configuring routers and switches, VLAN, STP, VTP<br> configuration.</li>
-                <li>LAN implementation, planning and design using<br> Cisco and Juniper devices.</li>
-                <li>Access list configuration to secure access<br> on a network.</li>
-                <li>Microsoft windows Server administration,<br> Linux server administration.</li>
-            </ul>
+                <ul>
+                    <li>Well versed in Microsoft office packages<br> (MS word, MS Excel, MS PowerPoint)</li>
+                    <li>HTML, CSS, Bootstrap.</li>
+                    <li>Designing IP addressing schemes using subnets,<br> configuring routers and switches, VLAN, STP, VTP<br> configuration.</li>
+                    <li>LAN implementation, planning and design using<br> Cisco and Juniper devices.</li>
+                    <li>Access list configuration to secure access<br> on a network.</li>
+                    <li>Microsoft windows Server administration,<br> Linux server administration.</li>
+                </ul>
         </section>
         <section>
-            <h4 class="left-subheader">EDUCATION AND QUALIFICATIONS
-            </h4>
+            <h4 class="left-subheader">EDUCATION AND QUALIFICATIONS</h4>
                 <ul>
-                    <li>National Youth Service Corps Certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;2015</li><br>
+                    <li>National Youth Service Corps Certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;2015</li>            
+        <br>
                     <li>University of Benin, Benin city, Nigeria</li>
                         <ul>
                             <li class="certificates">B.Sc. Computer Science (Second Class Honors)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; 2014</li>
-                        </ul><br>
+                        </ul>             
+        <br>
                     <li>Lagos Anglican Girls Grammar School, Lagos</li>
                         <ul>
                             <li class="certificates">WASSCE Certificate/ Senior Secondary School Certificate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; 2008</li>
-                        </ul><br>
+                        </ul>
+        <br>
                     <li>Tender touch Nursery and Primary School, Lagos</li>
                         <ul>
                             <li class="certificates">First School Leaving Certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; 2002 </li>
                         </ul>
                 </ul>
         </section>
-         <br>
-         <hr>
+        <br>
+        <hr>
         <section>
             <h4 class="left-subheader">HOBBIES</h4>
                 <ul>
@@ -136,89 +176,145 @@
                     <li>Learning new technology</li>
                 </ul>
         </section>
+            <!--Section for Referees-->
         <section>
             <h4 class="left-subheader">REFERENCES</h4>
-            <p>
-            Mr Chris Emamere<br>Senior Mangager, Bollore Africa Logistics<br>08056136369
-                <br>
-            </p>
-            <p>
-                Mr Konyebagu Emmanuel<br>Managing Director, Platform Petroleum Limited, Lagos<br>08026440145
-            </p>
+                <p>Mr Chris Emamere<br>Senior Mangager, Bollore Africa Logistics<br>08056136369<br></p>
+                <p>Mr Konyebagu Emmanuel<br>Managing Director, Platform Petroleum Limited, Lagos<br>08026440145</p>
+        </section>
+            <br> <!-- Contact Me Section -->
+        <section>
+            <div class="form-section">
+                <form>
+                    <h4 class="left-subheader"> GET IN TOUCH</h4>
+                        <div>
+                            <input list="title" class="input-field" name="title" placeholder="Title">
+                              <datalist id="title">
+                                <option value="Ms.">
+                                <option value="Mrs">
+                                <option value="Mr">
+                                <option value="Miss">
+                              </datalist>
+				        </div>
+                        <br>
+                        <div>
+				            <input type="text" class="input-field" id="firstname" placeholder="First Name"/>
+				        </div>
+                        <br>
+                        <div>
+				            <input type="text" class="input-field" placeholder="Last Name"/>
+				        </div>
+                        <br>
+                        <div>
+				            <input type="number" class="input-field" placeholder="Phone Number"/>
+				        </div>
+                        <br>
+                        <div>
+				            <input type="email" class="input-field" placeholder="Email Address"/>
+				        </div>
+                        <br>
+                        <div>
+                            <textarea type="text" class="large-input-field" id="message" placeholder="Message"></textarea>
+				        </div>
+                        <br>
+                            <button class="button" type="submit" id="button" onclick="validateForm()" style="background-color: #009fe3">Send Message</button>
+                            <br>
+                        <br>
+                    <br>
+                </form>
+            </div>
         </section>
         </article>
+        <!-- Right side of the page starts here -->
         <article class="right-article">
             <div>
-                <h1 style="text-align:justify; font-size:35px; color:#041892; line-height: 0.5em;">Angela Nwazuosa EGEREGA</h1>
-                <p style="color:#041892; line-height: 0.5em; font-size: 20px; font-style: italic;  ">Front-End Developer</p>
-                <p>House 106 Prince Ademola Oniru Road,<br> Off Palace road, <br> Oniru estate, Victoria Island, Lagos.
-                <br>07014551379<br>angelaegerega@yahoo.com</p>
+                <h1 style="text-align:left; font-size:35px; color:#041892; ">Angela Nwazuosa EGEREGA</h1>
+                    <p style="color:#041892; line-height: 0.1em; font-size: 20px; font-style: italic;  ">Front-End Developer</p>
+                    <p>House 106 Prince Ademola Oniru Road,<br> Off Palace road, <br> Oniru estate, Victoria Island, Lagos.
+                    <br>07014551379<br>angelaegerega@yahoo.com</p>
             </div>
             <section>
                 <h4>SUMMARY</h4>
-                <p>An effective communicator seeking an exciting, challenging<br>and rewarding opportunity in an excellent professional<br>environment that will enable me to develop greater<br>competence with my skill set with a view to taking my career<br>to the next level.</p>
+                    <p>An effective communicator seeking an exciting, challenging<br>and rewarding opportunity in an excellent professional<br>environment that will enable me to develop greater<br>competence with my skill set with a view to taking my career<br>to the next level.</p>
             </section>
+            <!-- Work Experience history starts here -->
             <section>
         </section>
             <hr>
         <section>
             <h4>WORK EXPERIENCE</h4>
-            <div class="work-histoy-section">
-                <h5 class="right-subheader">PLATFORM PETROLEUM LIMITED, LAGOS <br>[Oct - Dec 2012]</h5>
-                    <p class="subheader-text" style=""><b>Industrial Attachment:</b></p>
-                        <ul>
-                            <li>Creation of server-based email accounts.</li>
-                            <li>Preparation of well reports and minutes of meeting held<br> weekly in the technical department.</li>
-                            <li>Arrangement of office files and folders, scanning documents.</li>
-                            <li>Network troubleshooting, internet connection.</li>
-                            <li>General training.</li>
-                        </ul>
-            </div>
-             <div class="work-histoy-section">
-                <h5  class="right-subheader">AMUWO ODOFIN LOCAL GOVERNMENT AREA COUNCIL, LAGOS <br>[Nov 2014-Oct 2015]</h5>
-                    <p class="subheader-text"><b>Corps member:</b></p>
-                        <ul>
-                            <li>Computer Science instructor at the council’s Vocational<br> Training Centre</li>
-                        </ul>
-            </div>
-             <div class="work-histoy-section">
-                <h5 class="right-subheader">AIRTEL NETWORKS LIMITED, NIGERIA THROUGH CCSNL, LAGOS<br> [Apr-Nov 2016]</h5>
-                    <p class="subheader-text"><b>Customer Service/ Sales Representative:</b></p>
-                        <ul>
-                            <li>Client Service/Retail Sales.</li>
-                            <li>Attending to customers and resolving issues effectively.</li>
-                            <li>ERC Vending and reconciliation.</li>
-                            <li>Preparing reports of weekly and monthly sales target.</li>
-                            <li>Meeting targets.</li>
-                        </ul>
-            </div>
-            <div class="work-histoy-section">
-                <h5 class="right-subheader">PAYIT.NG, ABUJA <br>[Aug-Sept 2017]</h5>
-                    <p class="subheader-text"><b>Intern - Front End Web Developer:</b></p>
-                        <ul>
-                            <li>Assist with the Web Content Management System for the<br> company’s public website using Front end development<br> tools/frameworks.</li>
-                            <li>Assist in needs analysis for projects; in research for<br> solutions for<br> needs.</li>
-                            <li>Assist in managing, maintaining, developing, designing<br> and updating the intranet.</li>
-                        </ul>
-            </div>
-            <div class="work-histoy-section">
-                <h5 class="right-subheader">CORALPAY TECHNOLOGY NIGERIA LIMITED<br> [Feb 2018 till date]</h5>
-                    <p class="subheader-text"><b>Network Engineer:</b></p>
-                        <ul>
-                            <li>Troubleshooting and correcting network problems<br> remotely and on-site.</li>
-                            <li>Maintaining and administering security systems such as<br> firewalls and intrusion detection systems.</li>
-                            <li>Configure, implement and maintain security platforms <br>such as routers, switches, firewalls, antivirus <br>systems and Anti-SPAM, enforcing network security policies.</li>
-                            <li>Review and assessment of firewalls, application <br>control, Antivirus and other network component policies.</li>
-                            <li>Assist in needs analysis for projects; in research for<br> solutions for needs.</li>
-                            <li>Installation and configuration of computers on <br>Active Directory.</li>
-                            <li>Network monitoring: using monitoring tools such as<br> OpManager to manage and optimize performance on network devices<br> such as routers, switches, firewalls and servers.</li>
-                        </ul>
-            </div>
+                <div class="work-histoy-section">
+                    <h5 class="right-subheader">PLATFORM PETROLEUM LIMITED, LAGOS <br>[Oct - Dec 2012]</h5>
+                        <p class="subheader-text" style=""><b>Industrial Attachment:</b></p>
+                            <ul>
+                                <li>Creation of server-based email accounts.</li>
+                                <li>Preparation of well reports and minutes of meeting held<br> weekly in the technical department.</li>
+                                <li>Arrangement of office files and folders, scanning documents.</li>
+                                <li>Network troubleshooting, internet connection.</li>
+                                <li>General training.</li>
+                            </ul>
+                </div>
+                <div class="work-histoy-section">
+                    <h5 class="right-subheader">AMUWO ODOFIN LOCAL GOVERNMENT AREA COUNCIL, LAGOS <br>[Nov 2014-Oct 2015]</h5>
+                        <p class="subheader-text"><b>Corps member:</b></p>
+                            <ul>
+                                <li>Computer Science instructor at the council’s Vocational<br> Training Centre</li>
+                            </ul>
+                </div>
+                <div class="work-histoy-section">
+                    <h5 class="right-subheader">AIRTEL NETWORKS LIMITED, NIGERIA THROUGH CCSNL, LAGOS<br> [Apr-Nov 2016]</h5>
+                        <p class="subheader-text"><b>Customer Service/ Sales Representative:</b></p>
+                            <ul>
+                                <li>Client Service/Retail Sales.</li>
+                                <li>Attending to customers and resolving issues effectively.</li>
+                                <li>ERC Vending and reconciliation.</li>
+                                <li>Preparing reports of weekly and monthly sales target.</li>
+                                <li>Meeting targets.</li>
+                            </ul>
+                </div>
+                <div class="work-histoy-section">
+                    <h5 class="right-subheader">PAYIT.NG, ABUJA <br>[Aug-Sept 2017]</h5>
+                        <p class="subheader-text"><b>Intern - Front End Web Developer:</b></p>
+                            <ul>
+                                <li>Assist with the Web Content Management System for the<br> company’s public website using Front end development<br> tools/frameworks.</li>
+                                <li>Assist in needs analysis for projects; in research for<br> solutions for<br> needs.</li>
+                                <li>Assist in managing, maintaining, developing, designing<br> and updating the intranet.</li>
+                            </ul>
+                </div>
+                <div class="work-histoy-section">
+                    <h5 class="right-subheader">CORALPAY TECHNOLOGY NIGERIA LIMITED<br> [Feb 2018 till date]</h5>
+                        <p class="subheader-text"><b>Network Engineer:</b></p>
+                            <ul>
+                                <li>Troubleshooting and correcting network problems<br> remotely and on-site.</li>
+                                <li>Maintaining and administering security systems such as<br> firewalls and intrusion detection systems.</li>
+                                <li>Configure, implement and maintain security platforms <br>such as routers, switches, firewalls, antivirus <br>systems and Anti-SPAM, enforcing network security policies.</li>
+                                <li>Review and assessment of firewalls, application <br>control, Antivirus and other network component policies.</li>
+                                <li>Assist in needs analysis for projects; in research for<br> solutions for needs.</li>
+                                <li>Installation and configuration of computers on <br>Active Directory.</li>
+                                <li>Network monitoring: using monitoring tools such as<br> OpManager to manage and optimize performance on network devices<br> such as routers, switches, firewalls and servers.</li>
+                            </ul>
+              </div>
         </section>
              <br>
             <br>
         </article>
         <!--This section was used to separate the two sections of the page i.e to clear the center-->
         <div class="empty-section"></div>
-        </body>
-    </html>
+    </body>
+        <script>
+            function validateForm()
+            {
+                if (document.querySelector("#firstname").value.length < 4)
+                {
+                    window.alert("First Name is less than 4 characters!");
+                    return false;
+                }
+                if (document.querySelector("#message").value.length < 20)
+                {
+                    window.alert("Message must be at least 20 characters!");
+                    return false;
+                }
+            }
+    
+        </script>
+</html>
